@@ -89,7 +89,9 @@ This project is for educational purposes and doesn't contain any proprietary cod
 For any questions or opportunities, feel free to reach out:
 
 Email: rishav12av@gmail.com
+
 LinkedIn: linkedin.com/in/rishav-dev
+
 GitHub: github.com/rishav23av
 
 This repository is actively updated as I continue my full-stack development journey. Check back regularly for new projects and improvements!
