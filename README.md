@@ -3,7 +3,7 @@
 
 
   <p align="center">
-  <img src="api.svg"  />
+  <img src="./assets/api.svg"  />
 </p>
 
 
