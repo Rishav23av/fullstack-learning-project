@@ -1,7 +1,7 @@
 # fullstack-learning-project
 # Full-Stack Development Learning Repository
 
-![Repository Banner](https://via.placeholder.com/1200x400/4361ee/ffffff?text=Full-Stack+Development+Learning)
+![Repository Banner](https://placehold.co/1200x400/4361ee/ffffff?text=Full-Stack+Development+Learning)
 
 Welcome to my Full-Stack Development Learning Repository! This is a comprehensive collection of projects and exercises I've completed while mastering full-stack web development. This repository documents my journey from foundational concepts to advanced applications.
 
