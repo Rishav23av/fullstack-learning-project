@@ -1,7 +1,10 @@
 # fullstack-learning-project
 # Full-Stack Development Learning Repository
 
-![Full-Stack Development Banner](https://svg-banners.vercel.app/api?type=laptop&text=Full-Stack%20Development%20Learning&width=1200&height=400)
+![Full-Stack Development Banner]<p align="center">
+  <img src="https://svg-banners.vercel.app/api?type=laptop&text=Full-Stack%20Development%20Learning&width=1200&height=400" alt="Full-Stack Development Banner">
+</p>
+
 
 
 
