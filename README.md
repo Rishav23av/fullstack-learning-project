@@ -1,7 +1,8 @@
 # fullstack-learning-project
 # Full-Stack Development Learning Repository
 
-![Full-Stack Development Banner](https://svg-banners.vercel.app/api?type=laptop&text1=Full-Stack%20Development%20Learning&width=1200&height=400)
+![Full-Stack Development Banner](https://svg-banners.vercel.app/api?type=laptop&text=Full-Stack%20Development%20Learning&width=1200&height=400)
+
 
 
 Welcome to my Full-Stack Development Learning Repository! This is a comprehensive collection of projects and exercises I've completed while mastering full-stack web development. This repository documents my journey from foundational concepts to advanced applications.
