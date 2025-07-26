@@ -67,7 +67,6 @@ To explore any project in this repository:
    ```bash
    git clone https://github.com/rishav23av/full-stack-learning.git
 
-
    
 🎯 Learning Goals
 My objectives with this learning journey include:
@@ -90,9 +89,9 @@ For any questions or opportunities, feel free to reach out:
 
 Email: rishav12av@gmail.com
 
-LinkedIn: linkedin.com/in/rishav-dev
+LinkedIn: https://linkedin.com/in/rishav-dev
 
-GitHub: github.com/rishav23av
+GitHub: https://github.com/rishav23av
 
 This repository is actively updated as I continue my full-stack development journey. Check back regularly for new projects and improvements!
 
