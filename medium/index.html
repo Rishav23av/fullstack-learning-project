@@ -1,157 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medium</title>
+    <title>Medium Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav id="navbar">
-        <h1 id="site-title">Medium</h1>
-        <div id="nav-links">
-            <a href="/">Our Story</a>
-            <a href="/">Membership</a>
-            <a href="/">Write</a>
-            <a href="/">Sign In</a>
-            <a href="/" class="btn-primary">Get Started</a>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Medium</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Membership</a></li>
+                        <li><a href="#">Write</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><button class="get-started">Get Started</button></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </nav>
-
-    <header class="hero-section">
-        <h2 class="hero-heading">Stay curious...</h2>
-        <p class="hero-subtitle">
-            Discover stories, thinking, and expertise <br>
-            from writers on any topic.
-        </p>
-        <a href="/" class="btn-primary hero-btn">Start Reading</a>
     </header>
 
-    <section class="trending-section">
-        <h3 class="section-title">Trending on Medium</h3>
-        <div class="trending-list">
-            <!-- Example trending item, repeat as needed -->
-            <article class="trending-item">
-                <span class="trend-num">01</span>
-                <div class="trend-content">
-                    <h4 class="trend-author">Adam Bly</h4>
-                    <p class="trend-title">All the Institutions I Was Taught to Trust Are Crumbling All at Once</p>
-                    <p class="trend-details">Jan 21 · 4 min read</p>
-                </div>
-            </article>
-            <article class="trending-item">
-                <span class="trend-num">02</span>
-                <div class="trend-content">
-                    <h4 class="trend-author">Adam Bly</h4>
-                    <p class="trend-title">All the Institutions I Was Taught to Trust Are Crumbling All at Once</p>
-                    <p class="trend-details">Jan 21 · 4 min read</p>
-                </div>
-            </article>
-            <article class="trending-item">
-                <span class="trend-num">03</span>
-                <div class="trend-content">
-                    <h4 class="trend-author">Adam Bly</h4>
-                    <p class="trend-title">All the Institutions I Was Taught to Trust Are Crumbling All at Once</p>
-                    <p class="trend-details">Jan 21 · 4 min read</p>
-                </div>
-            </article>
-            <!-- Add more trending items as needed -->
+    
+    <section class="curious">
+        <div class="container">
+            <p class="curious-title">Stay curious...</p>
+            <p>Discover stories, thinking, and expertise from writers on any topic.</p>
+            <button class="start-reading">Start Reading</button>
         </div>
     </section>
 
-    <main class="main-content">
-        <section class="articles-section">
-            <div class="articles-list">
-                <!-- Example article, repeat as needed -->
-                <article class="article-card">
-                    <div class="article-info">
-                        <p class="article-author">Polly Mackintosh</p>
-                        <h3 class="article-title">‘Medicine’: Is sober dancing the new ecstasy?</h3>
-                        <p class="article-summary">
-                            I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are already wet with condensation.
-                            The topless man next to
-                        </p>
-                        <div class="article-meta">
-                            <span>Jan 7 · 6 min read ·</span>
-                            <span class="tag">Dance</span>
-                        </div>
-                    </div>
-                    <div class="article-image">
-                        <img src="./assets/medium_news_photo.jpg" alt="Article cover" class="cover-img">
+    
+    <section class="trending">
+        <div class="container">
+            <h2>Trending on Medium</h2>
+            <div class="articles-grid">
+                <article>
+                    <span class="rank">01</span>
+                    <div class="content">
+                        <p>郭明錤 (Ming-Chi Kuo)</p>
+                        <h3>Vision Pro首週末預購檢視：符合預期但隱憂浮現 / Vision Pro's first-weekend pre-</h3>
+                        <p>Jan 22 · 2 min read</p>
                     </div>
                 </article>
-                <!-- Repeat article-card as needed -->
-                <article class="article-card">
-                    <div class="article-info">
-                        <p class="article-author">Polly Mackintosh</p>
-                        <h3 class="article-title">‘Medicine’: Is sober dancing the new ecstasy?</h3>
-                        <p class="article-summary">
-                            I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are already wet with condensation.
-                            The topless man next to
-                        </p>
-                        <div class="article-meta">
-                            <span>Jan 7 · 6 min read ·</span>
-                            <span class="tag">Dance</span>
-                        </div>
-                    </div>
-                    <div class="article-image">
-                        <img src="./assets/medium_news_photo.jpg" alt="Article cover" class="cover-img">
+                <article>
+                    <span class="rank">02</span>
+                    <div class="content">
+                        <p>Adam Bly</p>
+                        <h3>All the Institutions I Was Taught to Trust Are Crumbling All at Once</h3>
+                        <p>Jan 21 · 4 min read</p>
                     </div>
                 </article>
-                <article class="article-card">
-                    <div class="article-info">
-                        <p class="article-author">Polly Mackintosh</p>
-                        <h3 class="article-title">‘Medicine’: Is sober dancing the new ecstasy?</h3>
-                        <p class="article-summary">
-                            I’m on a boat in Amsterdam. It’s 8pm on a Friday and the walls are already wet with condensation.
-                            The topless man next to
-                        </p>
-                        <div class="article-meta">
-                            <span>Jan 7 · 6 min read ·</span>
-                            <span class="tag">Dance</span>
-                        </div>
-                    </div>
-                    <div class="article-image">
-                        <img src="./assets/medium_news_photo.jpg" alt="Article cover" class="cover-img">
+                <article>
+                    <span class="rank">03</span>
+                    <div class="content">
+                        <p>Thi-Lam-Thuy LE in Towards Data Science</p>
+                        <h3>How ReLU Enables Neural Networks to Approximate Continuous Nonlinear</h3>
+                        <p>Jan 21 · 5 min read</p>
                     </div>
                 </article>
-                <!-- Add more article-card as needed -->
+                <article>
+                    <span class="rank">04</span>
+                    <div class="content">
+                        <p>Scott Galloway</p>
+                        <h3>Acktivism</h3>
+                        <p>Jan 23 · 6 min read</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="rank">05</span>
+                    <div class="content">
+                        <p>The Generator Thomas Smith in The Generator</p>
+                        <h3>Midjourney 6 Means the End for a Big Chunk of the Photo Industry</h3>
+                        <p>Jan 23 · 8 min read</p>
+                    </div>
+                </article>
+                <article>
+                    <span class="rank">06</span>
+                    <div class="content">
+                        <p>Crow's Feet Beth Bruno in Crow's Feet</p>
+                        <h3>Freedom in Old Age Comes from Non-Attachment</h3>
+                        <p>Jan 22 · 5 min read Polly Mackintosh</p>
+                    </div>
+                </article>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <aside class="sidebar">
-            <div class="sidebar-sticky">
-                <p class="sidebar-title">Discover more of what matters to you</p>
-                <div class="sidebar-topics">
-                    <ul>
-                        <li class="tag">Programming</li>
-                        <li class="tag">Data Science</li>
-                        <li class="tag">Technology</li>
-                        <li class="tag">Self Improvement</li>
-                        <li class="tag">Writing</li>
-                        <li class="tag">Relationship</li>
-                        <li class="tag">Machine Learning</li>
-                        <li class="tag">Productivity</li>
-                        <li class="tag">Politics</li>
-                    </ul>
-                </div>
-                <p class="see-more-topics">See more topics</p>
-                <div class="sidebar-links">
-                    <ul>
-                        <li>Help</li>
-                        <li>Status</li>
-                        <li>About</li>
-                        <li>Career</li>
-                        <li>Blogs</li>
-                        <li>Privacy</li>
-                        <li>Terms</li>
-                        <li>Text to speech</li>
-                    </ul>
-                </div>
+    
+    <main class="main-content">
+        <div class="container">
+            <div class="content-wrapper">
+                
+                <section class="articles-section">
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                   
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                    <article class="article-card">
+                        <img src="image.png" alt="Article Image">
+                        <div class="article-content">
+                            <p>Polly Mackintosh</p>
+                            <h2>'Medicine': Is sober dancing the new ecstasy?</h2>
+                            <p>I'm on a boat in Amsterdam. It's 8pm on a Friday and the walls are already wet with condensation. The topless man next to</p>
+                            <p>Jan 7 · 6 min read · <span class="tag">Dance</span></p>
+                        </div>
+                    </article>
+                </section>
+
+                
+                <aside class="sidebar">
+                    <div class="discover-more">
+                        <h3>Discover more of what matters to you</h3>
+                        <div class="tags">
+                            <span>Programming</span>
+                            <span>Data Science</span>
+                            <span>Technology</span>
+                            <span>Self Improvement</span>
+                            <span>Writing</span>
+                            <span>Relationship</span>
+                            <span>Machine Learning</span>
+                            <span>Productivity</span>
+                            <span>Politics</span>
+                        </div>
+                        <a href="#" class="see-more">See more topics</a>
+                    </div>
+                </aside>
             </div>
-        </aside>
+        </div>
     </main>
+
+    
+    <footer>
+        <div class="container">
+            <div class="links">
+                <ul>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Text to speech</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
