@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f7fe;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1rem;
+  background-color: white;
+  padding: 2rem 3rem;
+  width: max-content;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 320px;
+}
+
+.search input {
+  flex: 1;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #f1f1f1;
+  transition: all 0.2s ease;
+}
+
+.search input:focus {
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
+
+.search button {
+  border: none;
+  padding: 0.7rem 1.2rem;
+  background-color: gold;
+  color: #333;
+  border-radius: 0 5px 5px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 150ms ease;
+}
+
+.search button:hover {
+  background-color: #e6c700;
+}
+
+.search button:active {
+  transform: scale(0.97) translateY(1px);
+}
+
+#city {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+#temp {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  height: 140px;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+#icon {
+  height: 90px;
+  width: 90px;
+  object-fit: contain;
+}
+
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .main {
+    padding: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  #temp {
+    font-size: 2.2rem;
+  }
+
+  .content {
+    gap: 10px;
+  }
+
+  #icon {
+    height: 70px;
+    width: 70px;
+  }
+}
