@@ -1,0 +1,55 @@
+{
+  "name": "mern-blog-app",
+  "version": "1.0.0",
+  "description": "A modern, full-stack blogging platform built with the MERN stack",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "start": "npm run server:start",
+    "build": "npm run client:build",
+    "server:dev": "cd server && npm run dev",
+    "server:start": "cd server && npm start",
+    "client:dev": "cd client && npm run dev",
+    "client:build": "cd client && npm run build",
+    "client:preview": "cd client && npm run preview",
+    "install:server": "cd server && npm install",
+    "install:client": "cd client && npm install",
+    "install:all": "npm run install:server && npm run install:client",
+    "clean": "rm -rf server/node_modules client/node_modules client/dist",
+    "lint": "npm run lint:server && npm run lint:client",
+    "lint:server": "cd server && npm run lint",
+    "lint:client": "cd client && npm run lint",
+    "test": "npm run test:server && npm run test:client",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test"
+  },
+  "keywords": [
+    "mern",
+    "blog",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication",
+    "full-stack"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mern-blog-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/mern-blog-app/issues"
+  },
+  "homepage": "https://github.com/your-username/mern-blog-app#readme"
+}
+
