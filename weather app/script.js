@@ -8,6 +8,7 @@ const tempElement = document.getElementById('temp');
 const iconElement = document.getElementById('icon');
 
 
+
 async function getWeatherByCity(cityName) {
     try {
         
